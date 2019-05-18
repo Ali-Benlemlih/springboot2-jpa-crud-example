@@ -10,8 +10,6 @@ public class Springboot2JpaCrudExampleApplication {
 	
 
 	public static void main(String[] args) {
-		Employee employee = new Employee("a","a","a");
-		employee.toString();
 		SpringApplication.run(Springboot2JpaCrudExampleApplication.class, args);
 	}
 }
